@@ -1,0 +1,67 @@
+@charset "utf-8";
+/* CSS Document */
+
+.gallery-wrap {	padding-bottom:4px;	position:relative;padding-top:2px;border:none;overflow:hidden;}
+
+.content-wrapper,.columns.border,.styledbox.general {	border:none;}
+.columns.border.two {width:45%;}
+.columns.border.three, .columns.border.onethird {width:28%;}
+.columns.border.four, .columns.border.onefourth {width:19.2%;}
+.columns.border.twothirds {	width:62%;}
+.columns.border.threefourths {width:70.5%;}
+
+.content-wrapper {border:none;}
+
+.slidernav-left a {margin-left:2px;}
+.slidernav-right a {margin-left:17px;}
+
+.post-slider .slidernav-right a {margin-left:14px;}
+
+.slidernav-right, .slidernav-left {width:37px;}
+.post-slider .slidernav-right, .post-slider  .slidernav-left {width:34px;}
+
+.orange.button a, .orange.button a:visited { border:1px solid #ff5c00; border-top:none; }
+.green.button a, .green.button a:visited { border:1px solid #4ab602; border-top:none; }
+.blue.button a, .blue.button a:visited { border:1px solid #00a8ff; border-top:none; }
+.aqua.button a, .aqua.button a:visited { border:1px solid #2daebf; border-top:none; }
+.red.button a, .red.button a:visited { border:1px solid #e33100; border-top:none; }
+.magenta.button a, .magenta.button a:visited { border:1px solid #a9014b; border-top:none; }
+.orange.button a, .orange.button a:visited { border:1px solid #ff5c00; border-top:none; }
+.yellow.button a, .yellow.button a:visited { border:1px solid #ffb515; border-top:none; }
+.grey.button a, .grey.button a:visited { border:1px solid #c8c8c8; border-top:none; }
+
+.button {
+	padding:3px 0px 0px 0px;
+	position:relative;
+	background: url(images/shadow-i.png) top center repeat-x;
+	zoom:1;
+	width:100%;
+	*display:inline;
+}
+
+
+.button-wrap {
+	padding:0px 0px 3px 0px;
+	position:relative;
+	background: url(images/shadow-h.png) bottom center repeat-x;	
+	zoom:1;
+	*display:inline;
+}
+
+button {background: #222 url(images/button.png) top repeat-x;}
+button:hover {background: #222 url(images/button.png) bottom repeat-x;}
+
+button {
+	padding: 4px 5px 6px 5px; 
+	*padding: 2px 5px 4px 5px;
+	border:1px solid #333;
+}
+
+.accordion .section, .ui-tabs-panel, .ui-tabs .ui-tabs-nav li {background-image:url(images/gradient-h.png);background-position:top;background-repeat:repeat-x;}
+
+/* BuddyPress */
+div#message {
+	border:none !important;
+}
+
+.post-gallery .panel.shadow-large, .post-gallery .panel.shadow-medium, .post-gallery .panel.shadow-small, .post-gallery .panel.shadow-xsmall  {background-color:#fbfbfb !important;}

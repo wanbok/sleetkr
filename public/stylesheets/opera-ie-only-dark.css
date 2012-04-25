@@ -1,0 +1,6 @@
+@charset "utf-8";
+/* CSS Document */
+
+.accordion .section, .ui-tabs-panel, .ui-tabs .ui-tabs-nav li {background-image:url(images/gradient-h-dark.png) !important;background-position:top;background-repeat:repeat-x;}
+.ui-tabs .ui-tabs-nav li.ui-state-active {filter:none; /* for IE */	} 
+.post-gallery .panel.shadow-large, .post-gallery .panel.shadow-medium, .post-gallery .panel.shadow-small, .post-gallery .panel.shadow-xsmall  {background-color:#1b1b1b !important;}
