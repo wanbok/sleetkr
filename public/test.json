@@ -1,50 +1,50 @@
 [
 	{
-		test1: "A: Apple",
-		test2: "B: Baby",
-		test3: "C: Carrot",
-		test4: "D: Doctor",
-		test5: "E: Elegant",
-		test6: "F: Fuck"
+		"test1": "A: Apple",
+		"test2": "B: Baby",
+		"test3": "C: Carrot",
+		"test4": "D: Doctor",
+		"test5": "E: Elegant",
+		"test6": "F: Fuck"
 	},
 	{
-		test1: "A: Awesome",
-		test2: "B: Big",
-		test3: "C: Canaria",
-		test4: "D: Dig",
-		test5: "E: Emulator",
-		test6: "F: Fancy"
+		"test1": "A: Awesome",
+		"test2": "B: Big",
+		"test3": "C: Canaria",
+		"test4": "D: Dig",
+		"test5": "E: Emulator",
+		"test6": "F: Fancy"
 	},
 	{
-		test1: "A: Angle",
-		test2: "B: Bob",
-		test3: "C: Chalot",
-		test4: "D: Dangle",
-		test5: "E: Eve",
-		test6: "F: Fantastic"
+		"test1": "A: Angle",
+		"test2": "B: Bob",
+		"test3": "C: Chalot",
+		"test4": "D: Dangle",
+		"test5": "E: Eve",
+		"test6": "F: Fantastic"
 	},
 	{
-		test1: "A: Angora",
-		test2: "B: Bandi",
-		test3: "C: Chic",
-		test4: "D: Dive",
-		test5: "E: Evelyn",
-		test6: "F: Fiddlesticks"
+		"test1": "A: Angora",
+		"test2": "B: Bandi",
+		"test3": "C: Chic",
+		"test4": "D: Dive",
+		"test5": "E: Evelyn",
+		"test6": "F: Fiddlesticks"
 	},
 	{
-		test1: "A: Annie",
-		test2: "B: Bacus",
-		test3: "C: Cantata",
-		test4: "D: Dr.Mundo",
-		test5: "E: Elder",
-		test6: "F: Fork"
+		"test1": "A: Annie",
+		"test2": "B: Bacus",
+		"test3": "C: Cantata",
+		"test4": "D: Dr.Mundo",
+		"test5": "E: Elder",
+		"test6": "F: Fork"
 	},
 	{
-		test1: "A: Ahri",
-		test2: "B: Banistelui",
-		test3: "C: Congo",
-		test4: "D: Daum",
-		test5: "E: Emolation",
-		test6: "F: Fiora"
+		"test1": "A: Ahri",
+		"test2": "B: Banistelui",
+		"test3": "C: Congo",
+		"test4": "D: Daum",
+		"test5": "E: Emolation",
+		"test6": "F: Fiora"
 	},
 ]
