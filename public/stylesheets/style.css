@@ -302,7 +302,7 @@ body {
 
 #header-logo {
 	width:225px;
-	margin-top:44px;
+	margin-top:40px;
 	position:absolute;
 	height:100px;
 	overflow:hidden;
@@ -317,6 +317,8 @@ body {
 #header-logo h1 a {	color:#333;}
 
 #header-logo .description {	position:absolute;margin-top:33px;}
+
+#header-logo .right { position:absolute;margin-left:104px;}
 
 
 #sub-header {
