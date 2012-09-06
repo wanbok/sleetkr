@@ -138,7 +138,7 @@ body {
 #panel {
 	width: 100%;
 	height: 285px;
-	background: #fbfbfb url(images/gradient-a.png) bottom repeat-x;
+	background: #fbfbfb url(/images/gradient-a.png) bottom repeat-x;
 	overflow: hidden;
 	position: relative;
 	z-index: 3;
@@ -190,7 +190,7 @@ body {
 
 /* Panel Tab/button */
 .tab-wrap {
-  	background: url(images/panel-tab-a.png) repeat-x 0 0;
+  	background: url(/images/panel-tab-a.png) repeat-x 0 0;
 	height: 32px;
 	position: relative;
 	top: 0;
@@ -220,11 +220,11 @@ body {
 	width: 18px;
 	padding-right:10px;
 	margin: 0;
-	background:url(images/break-c.png) repeat-y left;
+	background:url(/images/break-c.png) repeat-y left;
 }
 
 .tab ul.panelswitch li.left {
-  	background: url(images/panel-tab-l.png) no-repeat left 0;
+  	background: url(/images/panel-tab-l.png) no-repeat left 0;
   	height: 36px;
 	width: 11px;
 	padding: 0;
@@ -234,7 +234,7 @@ body {
 }
 
 .tab ul.panelswitch li.right {
-  	background: url(images/panel-tab-r.png) no-repeat left 0;
+  	background: url(/images/panel-tab-r.png) no-repeat left 0;
   	height: 36px;
 	width: 14px;
 	padding: 0;
@@ -250,7 +250,7 @@ body {
 	float: left;
 	height: 36px;
 	width:218px;
-  	background: url(images/panel-tab-m.png) repeat-x 0 0;
+  	background: url(/images/panel-tab-m.png) repeat-x 0 0;
 }
 
 .tab ul.panelswitch li a {color: #484848;}
@@ -271,13 +271,13 @@ body {
 }
 
 .tab a.open {
-	background-image:url(images/button-a.png);
+	background-image:url(/images/button-a.png);
 	background-position:left 0;
 	background-repeat:no-repeat;
 }
 
 .tab a.close {
-	background-image:url(images/button-a.png);
+	background-image:url(/images/button-a.png);
 	background-position:right 0;
 	background-repeat:no-repeat;
 }
@@ -337,7 +337,7 @@ body {
     height: auto !important; 
 	width:100%;
 	background-color:#fbfbfb;
-	background-image:url(images/header-b.png); 
+	background-image:url(/images/header-b.png); 
 	background-position:top center;
 	background-repeat:repeat-x;
 	min-width:1050px;
@@ -345,7 +345,7 @@ body {
 
 #wrapper.gallery {
 	background-color:#fbfbfb;
-	background-image: url(images/header-c.png);
+	background-image: url(/images/header-c.png);
 	background-position:top center;
 	background-repeat:repeat-x;	
 }
@@ -370,8 +370,8 @@ body {
 .inner-page .right {float:right;}
 .inner-page.gallery{margin-top:5px;}
 
-#page.pages {background:url(images/header-a.png) top center no-repeat;}
-#page.gallery {	background:url(images/header-d.png) top center no-repeat;}
+#page.pages {background:url(/images/header-a.png) top center no-repeat;}
+#page.gallery {	background:url(/images/header-d.png) top center no-repeat;}
 
 .content-wrapper,.styledbox.general  {
 	position:relative;
@@ -441,7 +441,7 @@ body {
 	margin-top:-10px;
 }
 
-.side-wrap.left.border.bottom {float:left;background:url(images/content-border-d.png) right bottom no-repeat;}
+.side-wrap.left.border.bottom {float:left;background:url(/images/content-border-d.png) right bottom no-repeat;}
 
 .sidebar-content {
 	display:block;
@@ -469,17 +469,17 @@ body {
 	padding-bottom:25px;
 }
 
-.border-wrap.left .border-inner.border {background:url(images/content-border-b.png) right 30px repeat-y;}
+.border-wrap.left .border-inner.border {background:url(/images/content-border-b.png) right 30px repeat-y;}
 
-.border-wrap.right .border-inner.border {background:url(images/content-border-e.png) left repeat-y;}
+.border-wrap.right .border-inner.border {background:url(/images/content-border-e.png) left repeat-y;}
 
-.border-wrap.left.border.bottom{background:url(images/content-border-d.png) right bottom no-repeat;}
+.border-wrap.left.border.bottom{background:url(/images/content-border-d.png) right bottom no-repeat;}
 
-.border-wrap.right.border.bottom{background:url(images/content-border-g.png) left bottom no-repeat;}
+.border-wrap.right.border.bottom{background:url(/images/content-border-g.png) left bottom no-repeat;}
 
-.border-wrap.left .sidebar-content.border.top {	background:url(images/content-border-c.png) right top no-repeat;}
+.border-wrap.left .sidebar-content.border.top {	background:url(/images/content-border-c.png) right top no-repeat;}
 
-.border-wrap.right .sidebar-content.border.top {background:url(images/content-border-f.png) left top no-repeat;}
+.border-wrap.right .sidebar-content.border.top {background:url(/images/content-border-f.png) left top no-repeat;}
 
 .no-border-wrap.right {	float:right;}
 
@@ -499,12 +499,12 @@ body {
 }
 
 
-#footer-wrap {min-height:150px;background:#fbfbfb url(images/footer-a.jpg) center top repeat-x;min-width:1050px;}
+#footer-wrap {min-height:150px;background:#fbfbfb url(/images/footer-a.jpg) center top repeat-x;min-width:1050px;}
 
 #footer-wrap-inner {	
 	min-height:150px;
 	width:100%;
-	background:url(images/footer-m.jpg) center top no-repeat;	
+	background:url(/images/footer-m.jpg) center top no-repeat;	
 }
 
 #footer {
@@ -533,20 +533,20 @@ body {
 }
 
 #footer .panel-wrap.last, #panel .panel-wrap.last {	margin-right:0px;}
-#footer .hozbreak {	background:url(images/break-a.png) center repeat-x;}
+#footer .hozbreak {	background:url(/images/break-a.png) center repeat-x;}
 #footer .widgetlinks, #panel .widgetlinks, #footer .menu, #panel .menu {
 	margin: 10px 0px 0px 0;
-	background:url(images/break-a.png) bottom left repeat-x;
+	background:url(/images/break-a.png) bottom left repeat-x;
 	padding-bottom:2px;	
 }
 
-#footer .widgetlinks li, #panel .widgetlinks li, #footer .menu li, #panel .menu li {background:url(images/break-a.png) top left repeat-x;padding:4px;padding-left:0;}
+#footer .widgetlinks li, #panel .widgetlinks li, #footer .menu li, #panel .menu li {background:url(/images/break-a.png) top left repeat-x;padding:4px;padding-left:0;}
 
 #footer .widgetlinks li a, #panel .widgetlinks li a, #footer .menu li a, #panel .menu li a {
 	padding:4px;
 	padding-left:15px;
 	display:block;
-	background:url(images/li-arrow-drk.png) center left no-repeat;
+	background:url(/images/li-arrow-drk.png) center left no-repeat;
 }
 
 #footer .widgetlinks h3, #panel .widgetlinks h3 {margin-bottom:5px;}
@@ -554,7 +554,7 @@ body {
 .lowerfooter-wrap {
 	padding-top:15px;
 	padding-bottom:15px;
-	background:url(images/break-a.png) top left repeat-x;
+	background:url(/images/break-a.png) top left repeat-x;
 }
 
 .lowerfooter {margin:0 auto;width:940px;}
@@ -580,7 +580,8 @@ body {
 
 /** Main Menu *********************************/ 
 #tabs {
-	position:absolute;
+	position:relative;
+	float: right;
 	top:3px;
 	margin-left:200px;
 }
@@ -589,10 +590,10 @@ body {
 
 #tabs li {position: relative;list-style:none;}
 
-#tabs ul li.current_page_item, #tabs ul li:hover {background:url(images/gradient-f.png) repeat-x top;}
+#tabs ul li.current_page_item, #tabs ul li:hover {background:url(/images/gradient-f.png) repeat-x top;}
 
 #tabs li.menubreak,#tabs li.menubreak:hover {
-	background:url(images/break-c.png) left center repeat-y;
+	background:url(/images/break-c.png) left center repeat-y;
 	padding: 0px 0px 10px 2px;
 	margin-left:0;
 	margin-top:42px;
@@ -601,7 +602,7 @@ body {
 #tabs ul li{
 	float:left;
 	position:relative;
-	padding: 40px 14px 20px 14px;
+	padding: 40px 54px 20px 54px;
 	height:37px;
 	margin-right:1px;	
 }
@@ -730,7 +731,7 @@ body {
 	display:inline;
 	line-height:20px;
 	padding: 0 5px 0 20px;
-	background:url(images/break-b.png) left center no-repeat;
+	background:url(/images/break-b.png) left center no-repeat;
 }
 
 #sub-tabs ul li.home {background:none;padding-left:0;}
@@ -765,7 +766,7 @@ body {
 #searchform #s {width:200px;padding:6px 7px;*padding: 5px 7px;}
 
 #panelsearchsubmit, #searchsubmit {
-	background:url(images/search.png) top center no-repeat;
+	background:url(/images/search.png) top center no-repeat;
 	border:none;
 	height:26px;
 	width:26px;
@@ -795,7 +796,7 @@ body {
 	margin:0;
 }
 
-#panelsearchsubmit:hover, #searchsubmit:hover {	background:url(images/search.png) center -29px no-repeat;}
+#panelsearchsubmit:hover, #searchsubmit:hover {	background:url(/images/search.png) center -29px no-repeat;}
 
 /******************************************************************/
 /*	Search 	*END*										    	  */
@@ -844,11 +845,11 @@ ul.paging li.pagebutton.active, #content .textresize ul li:hover, #content ul li
 
 acronym, abbr {border-bottom: 1px dashed #1594d9;}
 
-.slidernav-left a {background:#1594d9 url(images/gallery-nav.png) top left no-repeat;}
-.slidernav-right a {background:#1594d9 url(images/gallery-nav.png) top right no-repeat;}
+.slidernav-left a {background:#1594d9 url(/images/gallery-nav.png) top left no-repeat;}
+.slidernav-right a {background:#1594d9 url(/images/gallery-nav.png) top right no-repeat;}
 
-.slidernav-left a:hover {background:#3bb8ff url(images/gallery-nav.png) top left no-repeat;}
-.slidernav-right a:hover {background:#3bb8ff url(images/gallery-nav.png) top right no-repeat;}
+.slidernav-left a:hover {background:#3bb8ff url(/images/gallery-nav.png) top left no-repeat;}
+.slidernav-right a:hover {background:#3bb8ff url(/images/gallery-nav.png) top right no-repeat;}
 
 /** / link / background colors *********************************/  
 
@@ -869,16 +870,16 @@ h6 {font-size:10px;}
 
 #content .post.hentry {	margin-bottom:25px;line-height:18px;}
 
-#content .postmetadata {background:url(images/break-a.png) bottom repeat-x;position:relative;}
+#content .postmetadata {background:url(/images/break-a.png) bottom repeat-x;position:relative;}
 
-#content .postmetadate {background:url(images/calendar.png) no-repeat;width:16px;height:16px;display:block;position:absolute;top:10px;}
+#content .postmetadate {background:url(/images/calendar.png) no-repeat;width:16px;height:16px;display:block;position:absolute;top:10px;}
 
-#content .postmetadata p {background:url(images/break-a.png) bottom repeat-x;line-height:37px;padding-bottom:5px;padding-left:25px;}
+#content .postmetadata p {background:url(/images/break-a.png) bottom repeat-x;line-height:37px;padding-bottom:5px;padding-left:25px;}
 
-#content .postmetadata .break, .post-date .break {background:url(images/break-c.png) left repeat-y;margin-left:7px;margin-right:5px;}
+#content .postmetadata .break, .post-date .break {background:url(/images/break-c.png) left repeat-y;margin-left:7px;margin-right:5px;}
 
 #content .postmetadata .comments {
-	background-image:url(images/comment.png);
+	background-image:url(/images/comment.png);
 	background-repeat:no-repeat;
 	position:absolute;
 	bottom:8px;
@@ -918,40 +919,40 @@ h6 {font-size:10px;}
 #content .list ul li, .gallerywrap .list ul li  {padding-left:25px;}
 #content ol {margin-left:15px;padding:5px;}
 
-#content .list.arrow.blue ul li, .gallerywrap .list.arrow.blue ul li {background:url(images/list-icons-blue.png) -120px -1px scroll no-repeat !important;}
-#content .list.check.blue ul li, .gallerywrap .list.check.blue ul li {background:url(images/list-icons-blue.png) -60px -76px scroll no-repeat !important;}
-#content .list.orb.blue ul li, .gallerywrap .list.orb.blue ul li {background:url(images/list-icons-blue.png) 2px -149px scroll no-repeat !important;}
+#content .list.arrow.blue ul li, .gallerywrap .list.arrow.blue ul li {background:url(/images/list-icons-blue.png) -120px -1px scroll no-repeat !important;}
+#content .list.check.blue ul li, .gallerywrap .list.check.blue ul li {background:url(/images/list-icons-blue.png) -60px -76px scroll no-repeat !important;}
+#content .list.orb.blue ul li, .gallerywrap .list.orb.blue ul li {background:url(/images/list-icons-blue.png) 2px -149px scroll no-repeat !important;}
 
-#content .list.arrow.green ul li, .gallerywrap .list.arrow.green ul li {background:url(images/list-icons-green.png) -120px -1px scroll no-repeat !important;}
-#content .list.check.green ul li, .gallerywrap .list.check.green ul li  {background:url(images/list-icons-green.png) -60px -76px scroll no-repeat !important;}
-#content .list.orb.green ul li, .gallerywrap .list.orb.green ul li {background:url(images/list-icons-green.png) 2px -149px scroll no-repeat !important;}
+#content .list.arrow.green ul li, .gallerywrap .list.arrow.green ul li {background:url(/images/list-icons-green.png) -120px -1px scroll no-repeat !important;}
+#content .list.check.green ul li, .gallerywrap .list.check.green ul li  {background:url(/images/list-icons-green.png) -60px -76px scroll no-repeat !important;}
+#content .list.orb.green ul li, .gallerywrap .list.orb.green ul li {background:url(/images/list-icons-green.png) 2px -149px scroll no-repeat !important;}
 
-#content .list.arrow.orange ul li, .gallerywrap .list.arrow.orange ul li {background:url(images/list-icons-orange.png) -120px -1px scroll no-repeat !important;}
-#content .list.check.orange ul li, .gallerywrap .list.arrow.orange ul li {background:url(images/list-icons-orange.png) -60px -76px scroll no-repeat !important;}
-#content .list.orb.orange ul li, .gallerywrap .list.orb.orange ul li {background:url(images/list-icons-orange.png) 2px -149px scroll no-repeat !important;}
+#content .list.arrow.orange ul li, .gallerywrap .list.arrow.orange ul li {background:url(/images/list-icons-orange.png) -120px -1px scroll no-repeat !important;}
+#content .list.check.orange ul li, .gallerywrap .list.arrow.orange ul li {background:url(/images/list-icons-orange.png) -60px -76px scroll no-repeat !important;}
+#content .list.orb.orange ul li, .gallerywrap .list.orb.orange ul li {background:url(/images/list-icons-orange.png) 2px -149px scroll no-repeat !important;}
 
-#content .list.arrow.pink ul li, .gallerywrap .list.arrow.pink ul li {background:url(images/list-icons-pink.png) -120px -1px scroll no-repeat !important;}
-#content .list.check.pink ul li, .gallerywrap .list.check.pink ul li  {background:url(images/list-icons-pink.png) -60px -76px scroll no-repeat !important;}
-#content .list.orb.pink ul li, .gallerywrap .list.orb.pink ul li {background:url(images/list-icons-pink.png) 2px -149px scroll no-repeat !important;}
+#content .list.arrow.pink ul li, .gallerywrap .list.arrow.pink ul li {background:url(/images/list-icons-pink.png) -120px -1px scroll no-repeat !important;}
+#content .list.check.pink ul li, .gallerywrap .list.check.pink ul li  {background:url(/images/list-icons-pink.png) -60px -76px scroll no-repeat !important;}
+#content .list.orb.pink ul li, .gallerywrap .list.orb.pink ul li {background:url(/images/list-icons-pink.png) 2px -149px scroll no-repeat !important;}
 
-#content .list.arrow.teal ul li, .gallerywrap .list.arrow.teal ul li {background:url(images/list-icons-teal.png) -120px -1px scroll no-repeat !important;}
-#content .list.check.teal ul li, .gallerywrap .list.check.teal ul li {background:url(images/list-icons-teal.png) -60px -76px scroll no-repeat !important;}
-#content .list.orb.teal ul li, .gallerywrap .list.orb.teal ul li {background:url(images/list-icons-teal.png) 2px -149px scroll no-repeat !important;}
+#content .list.arrow.teal ul li, .gallerywrap .list.arrow.teal ul li {background:url(/images/list-icons-teal.png) -120px -1px scroll no-repeat !important;}
+#content .list.check.teal ul li, .gallerywrap .list.check.teal ul li {background:url(/images/list-icons-teal.png) -60px -76px scroll no-repeat !important;}
+#content .list.orb.teal ul li, .gallerywrap .list.orb.teal ul li {background:url(/images/list-icons-teal.png) 2px -149px scroll no-repeat !important;}
 
-#content .list.arrow.red ul li, .gallerywrap .list.arrow.red ul li {background:url(images/list-icons-red.png) -120px -1px scroll no-repeat !important;}
-#content .list.check.red ul li, .gallerywrap .list.check.red ul li {background:url(images/list-icons-red.png) -60px -76px scroll no-repeat !important;}
-#content .list.orb.red ul li, .gallerywrap .list.orb.red ul li {background:url(images/list-icons-red.png) 2px -149px scroll no-repeat !important;}
+#content .list.arrow.red ul li, .gallerywrap .list.arrow.red ul li {background:url(/images/list-icons-red.png) -120px -1px scroll no-repeat !important;}
+#content .list.check.red ul li, .gallerywrap .list.check.red ul li {background:url(/images/list-icons-red.png) -60px -76px scroll no-repeat !important;}
+#content .list.orb.red ul li, .gallerywrap .list.orb.red ul li {background:url(/images/list-icons-red.png) 2px -149px scroll no-repeat !important;}
 
-#content .list.arrow.white ul li, .gallerywrap .list.arrow.white ul li {background:url(images/list-icons-white.png) -120px -1px scroll no-repeat !important;}
-#content .list.check.white ul li, .gallerywrap .list.check.white ul li  {background:url(images/list-icons-white.png) -60px -76px scroll no-repeat !important;}
-#content .list.orb.white ul li, .gallerywrap .list.orb.white ul li  {background:url(images/list-icons-white.png) 2px -149px scroll no-repeat !important;}
+#content .list.arrow.white ul li, .gallerywrap .list.arrow.white ul li {background:url(/images/list-icons-white.png) -120px -1px scroll no-repeat !important;}
+#content .list.check.white ul li, .gallerywrap .list.check.white ul li  {background:url(/images/list-icons-white.png) -60px -76px scroll no-repeat !important;}
+#content .list.orb.white ul li, .gallerywrap .list.orb.white ul li  {background:url(/images/list-icons-white.png) 2px -149px scroll no-repeat !important;}
 
-#content .list.arrow.grey ul li, .gallerywrap .list.arrow.grey ul li {background:url(images/list-icons-grey.png) -120px -1px scroll no-repeat !important;}
-#content .list.check.grey ul li, .gallerywrap .list.check.grey ul li {background:url(images/list-icons-grey.png) -60px -76px scroll no-repeat !important;}
-#content .list.orb.grey ul li, .gallerywrap .list.orb.grey ul li {background:url(images/list-icons-grey.png) 2px -149px scroll no-repeat !important;}
+#content .list.arrow.grey ul li, .gallerywrap .list.arrow.grey ul li {background:url(/images/list-icons-grey.png) -120px -1px scroll no-repeat !important;}
+#content .list.check.grey ul li, .gallerywrap .list.check.grey ul li {background:url(/images/list-icons-grey.png) -60px -76px scroll no-repeat !important;}
+#content .list.orb.grey ul li, .gallerywrap .list.orb.grey ul li {background:url(/images/list-icons-grey.png) 2px -149px scroll no-repeat !important;}
 
 code {
-	background: #f6f6f6 url(images/code-a.png) top left;
+	background: #f6f6f6 url(/images/code-a.png) top left;
 	display:block;padding:0 20px 0 20px;
 	line-height:20px;
 	border:1px solid #dfdfdf;
@@ -991,7 +992,7 @@ textarea {width:98%;height:120px;font-size:12px;}
 input, textarea {outline-style:none!important;}
 
 pre,xmp,input[type=text],input[type=password],input[type=file],textarea {
-	background:#fff url(images/gradient-d.png) top repeat-x;
+	background:#fff url(/images/gradient-d.png) top repeat-x;
 	border: 1px solid;
 	color:#aeaeae;
 	border-color:#dfdfdf #f0f0f0 #f0f0f0 #e5e5e5;
@@ -1007,7 +1008,7 @@ pre,xmp {
 pre,input[type=text]:focus, input[type=password]:focus, input[type=file]:focus,textarea:focus {	color:#484848;}
 
 select {
-	background: url(images/gradient-d.png) top repeat-x;
+	background: url(/images/gradient-d.png) top repeat-x;
 	border: 1px solid;
 	border-color:#dfdfdf #f0f0f0 #f0f0f0 #e5e5e5;
 	padding:2px 3px 2px 2px !important;
@@ -1037,7 +1038,7 @@ button, input[type="submit"],input[type="button"] {
 
 .content-wrapper-inner table,td,th {vertical-align:middle;}
 
-.content-wrapper-inner th,td {padding:10px;background:url(images/break-a.png) repeat-x top;}
+.content-wrapper-inner th,td {padding:10px;background:url(/images/break-a.png) repeat-x top;}
 
 .content-wrapper-inner tfoot td {border:0px;}
 
@@ -1050,7 +1051,7 @@ button, input[type="submit"],input[type="button"] {
 
 /** Comments *********************************/  
 #respond {
-	background:url(images/break-a.png) top repeat-x;
+	background:url(/images/break-a.png) top repeat-x;
 	margin-top:20px;
 	padding-top:15px;
 }
@@ -1058,7 +1059,7 @@ button, input[type="submit"],input[type="button"] {
 #content .comments-wrap {
 	margin-top:20px;
 	padding-top:15px;
-	background:url(images/break-a.png) top repeat-x;
+	background:url(/images/break-a.png) top repeat-x;
 }
 
 #content ol.commentlist li {margin:0;list-style:none;}
@@ -1069,11 +1070,11 @@ ol.commentlist {
 	padding:0;
 	text-indent:0; 
 } 
-ol.commentlist li.comment  .commentbreak { background:url(images/comment-a.png) 20px no-repeat;margin-top:-2px;} 
+ol.commentlist li.comment  .commentbreak { background:url(/images/comment-a.png) 20px no-repeat;margin-top:-2px;} 
 ol.commentlist li.comment  .commenttext { 
 	padding:1em;
 	border-top:1px solid #e9e9e9;
-	background:#fff url(images/break-a.png) bottom repeat-x; 
+	background:#fff url(/images/break-a.png) bottom repeat-x; 
 }
 
 ol.commentlist li.comment  .authorwrap { margin-top:5px;margin-left:14px; }
@@ -1082,7 +1083,7 @@ ol.commentlist li.comment  .authorwrap ul li {
 	line-height:36px;
 	margin-right:10px !important;
 	padding-right:12px !important;
-	background:url(images/break-c.png) right repeat-y; 
+	background:url(/images/break-c.png) right repeat-y; 
 }
 
 ol.commentlist li.comment  .authorwrap ul { margin:0; }
@@ -1101,7 +1102,7 @@ ol.commentlist li ul.children {
 	margin:1em 0 0 3em; 
 	text-indent:0; 
 } 
-ol.commentlist li.parent { background:url(images/break-c.png) left repeat-y; } 
+ol.commentlist li.parent { background:url(/images/break-c.png) left repeat-y; } 
 ol.commentlist li.pingback { border-bottom:1px dotted #666; padding:1em; } 
 /** / Comments *********************************/  
 
@@ -1124,7 +1125,7 @@ a img.aligncenter {	display: block; margin-left: auto; 	margin-right: auto;}
 a img {border:none;}
 
 .archiveimg-wrap {
-	background:url(images/shadow-j.png) bottom center no-repeat;
+	background:url(/images/shadow-j.png) bottom center no-repeat;
 	margin-left: auto;
 	margin-right: auto;
 	position:relative;
@@ -1133,7 +1134,7 @@ a img {border:none;}
 
 
 .archiveimg-wrap.shadow-small, .archiveimg-wrap.single.shadow-small {
-	background:url(images/shadow-c.png) bottom center no-repeat;
+	background:url(/images/shadow-c.png) bottom center no-repeat;
 }
 
 
@@ -1142,15 +1143,15 @@ a img {border:none;}
 }
 
 .archiveimg-wrap.portrait {
-	background:url(images/shadow-c.png) bottom center no-repeat;
+	background:url(/images/shadow-c.png) bottom center no-repeat;
 }
 
 .archiveimg-wrap.portrait.shadow-small {
-	background:url(images/shadow-f.png) bottom center no-repeat;
+	background:url(/images/shadow-f.png) bottom center no-repeat;
 }
 
 .archiveimg-wrap.single {
-	background:url(images/shadow-g.png) bottom center no-repeat;
+	background:url(/images/shadow-g.png) bottom center no-repeat;
 	margin-left: auto;
 	margin-right: auto;
 	position:relative;
@@ -1160,7 +1161,7 @@ a img {border:none;}
 }
 
 .archiveimg-wrap.single.portrait {
-	background:url(images/shadow-c.png) bottom center no-repeat;
+	background:url(/images/shadow-c.png) bottom center no-repeat;
 	padding-bottom:0px;
 }
 
@@ -1197,7 +1198,7 @@ ul.paging li.pagebutton,ul.paging li.pagebutton.active {
 	-webkit-box-shadow: 0 1px 3px rgba(0,0,0,0.5);
 	text-shadow: 0 1px 1px rgba(0,0,0,0.5);
 	border-bottom: 1px solid rgba(0,0,0,0.25);
-	background-image:url(images/button-overlay.png);
+	background-image:url(/images/button-overlay.png);
 	background-position:top;
 	background-repeat:repeat-x;		 
 }
@@ -1227,7 +1228,7 @@ ul.paging li.pagebutton {
 .tweets {
 	padding:10px 0px 10px 0px;
 	position:relative;
-	background:url(images/break-a.png) repeat-x bottom;
+	background:url(/images/break-a.png) repeat-x bottom;
 	font-style:italic;
 }
 
@@ -1241,14 +1242,14 @@ ul.paging li.pagebutton {
 	*top:1px;
 }
 
-.tweets .twitterfollow a {background-image:url(images/Twitter.png);	display:block;}
+.tweets .twitterfollow a {background-image:url(/images/Twitter.png);	display:block;}
 
 .tweets .tweettitle {
 	float:left;
 	position:relative;
 	padding-right:12px;
 	margin-right:10px;
-	background:url(images/break-c.png) right center repeat-y;	
+	background:url(/images/break-c.png) right center repeat-y;	
 }
 
 .tweets h3 {margin-bottom:5px;padding-left:30px;}
@@ -1276,9 +1277,9 @@ ul.paging li.pagebutton {
 	height:22px;
 }
 
-#content .textresize .resize-sml {background-image:url(images/resize-sml.png);}
+#content .textresize .resize-sml {background-image:url(/images/resize-sml.png);}
 
-#content .textresize .resize-lrg {background-image:url(images/resize-lrg.png);}
+#content .textresize .resize-lrg {background-image:url(/images/resize-lrg.png);}
 
 
 #content .textresize ul li img, #content #togglesocial ul li img {cursor:pointer;margin:0;padding:0;}
@@ -1309,7 +1310,7 @@ ul.paging li.pagebutton {
 	position: relative;
 	display:block;
 	top: 0px;
-	background-image:url(images/socialinit.png);
+	background-image:url(/images/socialinit.png);
 }
 
 #content .socialicons {
@@ -1330,27 +1331,27 @@ ul.paging li.pagebutton {
 }
 
 #content .socialicons ul li.social-delicious {
-	background-image:url(images/Deli.png);
+	background-image:url(/images/Deli.png);
 	background-repeat:no-repeat;
 }
 
 #content .socialicons ul li.social-facebook {
-	background-image:url(images/Facebook.png);
+	background-image:url(/images/Facebook.png);
 	background-repeat:no-repeat;
 }
 
 #content .socialicons ul li.social-digg {
-	background-image:url(images/Digg.png);
+	background-image:url(/images/Digg.png);
 	background-repeat:no-repeat;
 }
 
 #content .socialicons ul li.social-twitter {
-	background-image:url(images/Twitter.png);
+	background-image:url(/images/Twitter.png);
 	background-repeat:no-repeat;
 }
 
 #content .socialicons ul li.social-rss {
-	background-image:url(images/RSS.png);
+	background-image:url(/images/RSS.png);
 	background-repeat:no-repeat;
 }
 /** / Social Icons *********************************/
@@ -1370,16 +1371,16 @@ ul.paging li.pagebutton {
 /******************************************************************/
 
 /** General *********************************/ 
-.sidebar-content .widget_recent_entries li, .sidebar-content .widget_archive li, .sidebar-content .widget_links li, .sidebar-content .widget_meta li, .sidebar-content .widget_categories li, .widget_pages li, .widget_nav_menu li {background:url(images/break-a.png) top left repeat-x;}
+.sidebar-content .widget_recent_entries li, .sidebar-content .widget_archive li, .sidebar-content .widget_links li, .sidebar-content .widget_meta li, .sidebar-content .widget_categories li, .widget_pages li, .widget_nav_menu li {background:url(/images/break-a.png) top left repeat-x;}
 
-.widget ul {background:url(images/break-a.png) bottom left repeat-x;padding-bottom:4px;}
+.widget ul {background:url(/images/break-a.png) bottom left repeat-x;padding-bottom:4px;}
 
 .widget ul ul {	background:none;padding-bottom:0px;}
 
 .sidebar-content .widget_recent_entries li a, .sidebar-content .widget_archive li a, .sidebar-content .widget_links li a, .sidebar-content .widget_meta li a, .sidebar-content .widget_categories li a, .widget_pages li a, .widget_nav_menu li a{
 	padding:8px 0px 9px 15px;
 	display:block;
-	background:url(images/li-arrow-drk.png) center left no-repeat;
+	background:url(/images/li-arrow-drk.png) center left no-repeat;
 }
 /** / General *********************************/ 
 
@@ -1391,7 +1392,7 @@ ul.paging li.pagebutton {
 #wp-calendar caption {font-style:italic;padding-bottom:10px;}
 
 div#calendar_wrap {
-	background:url(images/shadow-d.png) bottom center no-repeat;
+	background:url(/images/shadow-d.png) bottom center no-repeat;
 	padding-bottom:18px;
 	position:relative;
 	width:205px;
@@ -1433,20 +1434,20 @@ div#calendar_wrap {
 	margin:0;
 	text-align: center;
 	vertical-align:middle;
-	background:#eaeaea url(images/cells.png) 0 0 no-repeat;
+	background:#eaeaea url(/images/cells.png) 0 0 no-repeat;
 	border:none;
 	font-size:11px;
 	position: relative;
 }
 
 #wp-calendar td a {
-	background-image:url(images/cells.png);
+	background-image:url(/images/cells.png);
 	background-position:right top;
 	background-repeat:repeat-x;
 }
 
 #wp-calendar td.pad {
-	background:#eee url(images/button-overlay.png) top repeat-x;
+	background:#eee url(/images/button-overlay.png) top repeat-x;
 	border-top: 1px solid #dfdfdf;
 	border-left: 1px solid #dfdfdf;
 }
@@ -1457,19 +1458,19 @@ div#calendar_wrap {
 #wp-calendar  th {
 	padding:2px;
 	border-left: 1px solid #dfdfdf;
-	background:#eaeaea url(images/button-overlay.png) top repeat-x;	
+	background:#eaeaea url(/images/button-overlay.png) top repeat-x;	
 		
 }
 
 #wp-calendar td#today {
-	background:#777 url(images/cells.png) right top no-repeat;
+	background:#777 url(/images/cells.png) right top no-repeat;
 	color:#fff;
 	border-left: 1px solid #dfdfdf;
 }
 
 #wp-calendar tfoot td {
 	border-top:1px solid #dfdfdf;
-	background:#eee url(images/button-overlay.png) top repeat-x !important;		
+	background:#eee url(/images/button-overlay.png) top repeat-x !important;		
 }
 
 #wp-calendar tfoot td {	border-left:1px solid #dfdfdf;}
@@ -1488,9 +1489,9 @@ div#calendar_wrap {
 
 .mini-slider .panel .container {height:auto;}
 
-.mini-slider .panel .container.shadow {	background:url(images/shadow-d.png) center bottom no-repeat;padding-bottom:20px;}
+.mini-slider .panel .container.shadow {	background:url(/images/shadow-d.png) center bottom no-repeat;padding-bottom:20px;}
 
-.mini-slider .panel .container.shadowreflection {background:url(images/shadow-f.png) center bottom no-repeat;padding-bottom:0px;}
+.mini-slider .panel .container.shadowreflection {background:url(/images/shadow-f.png) center bottom no-repeat;padding-bottom:0px;}
 /** / Mini Gallery *********************************/ 
 
 
@@ -1519,14 +1520,14 @@ div#calendar_wrap {
 	-moz-box-shadow: 0px 2px 4px rgba(0,0,0,0.1);
 	-webkit-box-shadow: 0px 2px 4px rgba(0,0,0,0.1);
 	box-shadow: 0px 2px 4px rgba(0,0,0,0.1);
-	background:#fbfbfb url(images/gradient-b.png) bottom repeat-x;
+	background:#fbfbfb url(/images/gradient-b.png) bottom repeat-x;
 }
 
 .slidernav-left {
 	float:left;
 	position:relative;
 	width:36px;
-	background:url(images/break-c.png) right repeat-y;
+	background:url(/images/break-c.png) right repeat-y;
 	height:100%;
 }
 
@@ -1535,7 +1536,7 @@ div#calendar_wrap {
 	width:38px;
 	position:relative;
 	float:right;
-	background:url(images/break-c.png) left repeat-y;
+	background:url(/images/break-c.png) left repeat-y;
 	height:100%;
 }
 
@@ -1577,11 +1578,11 @@ div#calendar_wrap {
 	-khtml-opacity: 0;
 }
 
-.hoverimg {	background: #fbfbfb url(images/image-hover.png) 50% 50% no-repeat;}
-.hovervid {	background: #fbfbfb url(images/video-hover.png) 50% 50% no-repeat;}
+.hoverimg {	background: #fbfbfb url(/images/image-hover.png) 50% 50% no-repeat;}
+.hovervid {	background: #fbfbfb url(/images/video-hover.png) 50% 50% no-repeat;}
 
-.shadowreflection .hoverimg, .reflection .hoverimg {background-image:url(images/image-hover-a.png);}
-.shadowreflection .hovervid, .reflection .hovervid {background-image:url(images/video-hover-a.png);}
+.shadowreflection .hoverimg, .reflection .hoverimg {background-image:url(/images/image-hover-a.png);}
+.shadowreflection .hovervid, .reflection .hovervid {background-image:url(/images/video-hover-a.png);}
 
 /** / General Gallery Styling *********************************/ 
 
@@ -1615,22 +1616,22 @@ div#calendar_wrap {
 	height:100%;
 }
 
-.stage-slider .panel.shadow {background:url(images/shadow-a.png) no-repeat center 100%;}
+.stage-slider .panel.shadow {background:url(/images/shadow-a.png) no-repeat center 100%;}
 
-.stage-slider .panel.reflectshadow {background:url(images/shadow-a.png) no-repeat center 95%;}
+.stage-slider .panel.reflectshadow {background:url(/images/shadow-a.png) no-repeat center 95%;}
 
 .stage-slider .panel-inner {margin:0 auto;width:940px;}
 
 
 .stage-slider .stagetextwrap {
-	background: #fff url(images/stagetext-a.png) left repeat-y;
+	background: #fff url(/images/stagetext-a.png) left repeat-y;
 	width:300px;
 	position:relative;
 	overflow:hidden;
 }
 
 .stage-slider .stagetextinner {
-	background:url(images/break-a.png) left top repeat-x;
+	background:url(/images/break-a.png) left top repeat-x;
 	height:2px;
 	margin-left:1px;
 	margin-right:1px;
@@ -1642,7 +1643,7 @@ div#calendar_wrap {
 
 
 .stage-slider .stagetextbottom {
-	background:url(images/break-e.png) left bottom repeat-x;
+	background:url(/images/break-e.png) left bottom repeat-x;
 	height:2px;
 	height:100%;
 	position:relative;
@@ -1720,18 +1721,18 @@ div#calendar_wrap {
 	
 }
 .control-panel ul li, .post-control-panel ul li {
-	background:url(images/gallery-navigation.png) right top no-repeat;
+	background:url(/images/gallery-navigation.png) right top no-repeat;
 }
 
-.control-panel ul li.activeSlide, .post-control-panel ul li.activeSlide {background:url(images/gallery-navigation.png) left top no-repeat;}
+.control-panel ul li.activeSlide, .post-control-panel ul li.activeSlide {background:url(/images/gallery-navigation.png) left top no-repeat;}
 
-.control-panel ul li:hover, .post-control-panel ul li:hover {background:url(images/gallery-navigation.png) left top no-repeat;}
+.control-panel ul li:hover, .post-control-panel ul li:hover {background:url(/images/gallery-navigation.png) left top no-repeat;}
 
 .stage-control #stage-prev,.stage-control #stage-next,.stage-control #stage-pause,.stage-control #stage-resume,.stage-control .poststage-prev,.stage-control .poststage-next,.stage-control .poststage-pause,.stage-control .poststage-resume {background-repeat:no-repeat;background-position:top center;display:block;}  
-.stage-control #stage-prev, .stage-control .poststage-prev {background-image:url(images/galleryslidenav-a.png);}
-.stage-control #stage-next, .stage-control .poststage-next {background-image:url(images/galleryslidenav-b.png);}
-.stage-control #stage-pause, .stage-control .poststage-pause {background-image:url(images/galleryslidenav-c.png);}
-.stage-control #stage-resume, .stage-control .poststage-resume {background-image:url(images/galleryslidenav-c.png);background-position:center -60px;}
+.stage-control #stage-prev, .stage-control .poststage-prev {background-image:url(/images/galleryslidenav-a.png);}
+.stage-control #stage-next, .stage-control .poststage-next {background-image:url(/images/galleryslidenav-b.png);}
+.stage-control #stage-pause, .stage-control .poststage-pause {background-image:url(/images/galleryslidenav-c.png);}
+.stage-control #stage-resume, .stage-control .poststage-resume {background-image:url(/images/galleryslidenav-c.png);background-position:center -60px;}
 .stage-control ul li {float:left;list-style:none !important;margin:0 !important;padding:0 !important;position:relative;}
 .stage-control .poststage-pauseresume span, .stage-control #stage-pauseresume span { cursor:pointer;}
 
@@ -1832,14 +1833,14 @@ div#calendar_wrap {
 }
 
 .gallery-slider .panel.border-left, .post-slider .panel.border-left  {
-	background:url(images/border-shadow-a.png) left repeat-y;
+	background:url(/images/border-shadow-a.png) left repeat-y;
 	padding-left:0px;
 	height:100%;
 	position:relative;
 }
 
 .gallery-slider .panel.border-first, .post-slider .panel.border-first {
-	background:url(images/border-shadow-b.png) left repeat-y;
+	background:url(/images/border-shadow-b.png) left repeat-y;
 	height:100%;
 	position:relative;
 }
@@ -1974,7 +1975,7 @@ div#calendar_wrap {
 .archiveimg-wrap img, .imagewrap img {margin: 0px; padding: 0px;}
 
 .imagewrap.frame {
-	background:url(images/gradient-g.png) repeat-x top !important;
+	background:url(/images/gradient-g.png) repeat-x top !important;
 	padding:9px 10px 10px 9px;
 	border:1px solid #dfdfdf;
 	-moz-box-shadow: 0px 2px 4px #e8e8e8;
@@ -1984,19 +1985,19 @@ div#calendar_wrap {
 
 
 .imagewrap.shadow-xsmall, .container.shadow-xsmall {
-	background:url(images/shadow-e.png) center bottom no-repeat;
+	background:url(/images/shadow-e.png) center bottom no-repeat;
 }
 
 .imagewrap.shadow-small, .container.shadow-small {
-	background:url(images/shadow-f.png) center bottom no-repeat;
+	background:url(/images/shadow-f.png) center bottom no-repeat;
 }
 
 .imagewrap.shadow-medium, .container.shadow-medium {
-	background:url(images/shadow-b.png) center bottom no-repeat;
+	background:url(/images/shadow-b.png) center bottom no-repeat;
 }
 
 .imagewrap.shadow-large, .container.shadow-large {
-	background:url(images/shadow-g.png) center bottom no-repeat;
+	background:url(/images/shadow-g.png) center bottom no-repeat;
 }
 
 .imagewrap.shadow-xsmall,.imagewrap.shadow-small,.imagewrap.shadow-medium,.imagewrap.shadow-large {
@@ -2036,7 +2037,7 @@ div#calendar_wrap {
 .button-wrap.threequarter 	{width:75%;}
 
 .button a, .button a:visited, button, #content input[type="submit"],.sidebar-content input[type="submit"], .panel-wrap input[type="submit"], input[type="button"] {
-	background: #222 url(images/button-overlay.png) top repeat-x; 
+	background: #222 url(/images/button-overlay.png) top repeat-x; 
 	display: inline-block; 
 	padding: 8px 12px 9px; 
 	color: #fff; 
@@ -2145,7 +2146,7 @@ div#calendar_wrap {
 
 /** Horizontal Breaks *********************************/ 
 .hozbreak {
-	background:url(images/break-a.png) center repeat-x;
+	background:url(/images/break-a.png) center repeat-x;
 	line-height:40px;
 	position:relative;
 	clear:both;
@@ -2155,7 +2156,7 @@ div#calendar_wrap {
 
 .hozbreak-top {
 	position:relative;
-	background:url(images/break-a-top.png) center right no-repeat;
+	background:url(/images/break-a-top.png) center right no-repeat;
 	display:block;
 	line-height:50px;
 	width:100%;
@@ -2217,21 +2218,21 @@ div#calendar_wrap {
 	-pie-background: linear-gradient(#e40c33, #e84d69 100%);
 }
 
-.styledbox.information .boxcontent 	{background:url(images/icon-b.png) left center no-repeat;color:#FFF;}
-.styledbox.warning .boxcontent 		{background:url(images/icon-a.png) left center no-repeat;color:#333;}
-.styledbox.download .boxcontent 	{background:url(images/icon-c.png) left center no-repeat;color:#333;}
-.styledbox.help .boxcontent 		{background:url(images/icon-d.png) left center no-repeat;color:#fff;}
+.styledbox.information .boxcontent 	{background:url(/images/icon-b.png) left center no-repeat;color:#FFF;}
+.styledbox.warning .boxcontent 		{background:url(/images/icon-a.png) left center no-repeat;color:#333;}
+.styledbox.download .boxcontent 	{background:url(/images/icon-c.png) left center no-repeat;color:#333;}
+.styledbox.help .boxcontent 		{background:url(/images/icon-d.png) left center no-repeat;color:#fff;}
 
-.mid-wrap.out-full .styledbox.shadow.top						{background:url(images/stylebox-a.png) center top no-repeat;}
-.content-wrapper .mid-wrap.out-full .styledbox.shadow.top		{background:url(images/stylebox-a-1.png) center top no-repeat;}
-.mid-wrap.out-threequarter .styledbox.shadow.top				{background:url(images/stylebox-a-3.png) center top no-repeat;}
-.mid-wrap.out-half .styledbox.shadow.top						{background:url(images/stylebox-a-2.png) center top no-repeat;}
+.mid-wrap.out-full .styledbox.shadow.top						{background:url(/images/stylebox-a.png) center top no-repeat;}
+.content-wrapper .mid-wrap.out-full .styledbox.shadow.top		{background:url(/images/stylebox-a-1.png) center top no-repeat;}
+.mid-wrap.out-threequarter .styledbox.shadow.top				{background:url(/images/stylebox-a-3.png) center top no-repeat;}
+.mid-wrap.out-half .styledbox.shadow.top						{background:url(/images/stylebox-a-2.png) center top no-repeat;}
 
 
-.mid-wrap.out-full .styledbox.shadow.bottom						{background:url(images/stylebox-b.png) center bottom no-repeat;}
-.content-wrapper .mid-wrap.out-full .styledbox.shadow.bottom	{background:url(images/stylebox-b-1.png) center bottom no-repeat;}
-.mid-wrap.out-threequarter .styledbox.shadow.bottom				{background:url(images/stylebox-b-3.png) center bottom no-repeat;}
-.mid-wrap.out-half .styledbox.shadow.bottom						{background:url(images/stylebox-b-2.png) center bottom no-repeat;}
+.mid-wrap.out-full .styledbox.shadow.bottom						{background:url(/images/stylebox-b.png) center bottom no-repeat;}
+.content-wrapper .mid-wrap.out-full .styledbox.shadow.bottom	{background:url(/images/stylebox-b-1.png) center bottom no-repeat;}
+.mid-wrap.out-threequarter .styledbox.shadow.bottom				{background:url(/images/stylebox-b-3.png) center bottom no-repeat;}
+.mid-wrap.out-half .styledbox.shadow.bottom						{background:url(/images/stylebox-b-2.png) center bottom no-repeat;}
 
 
 .styledbox.left {float:left;margin: 1em 1em 1em 0em;}
@@ -2360,9 +2361,9 @@ span.highlight.two {background:#111;color:#FFFFFF;}
 
 
 
-.accordion .ui-icon { width: 8px; height: 14px; background-image: url(images/button-b.png); }
+.accordion .ui-icon { width: 8px; height: 14px; background-image: url(/images/button-b.png); }
 .accordion .ui-icon { position: absolute; left: 10px; top: 50%; margin-top: -8px; }
-.accordion .ui-state-active .ui-icon { width: 14px; height: 8px; background-image: url(images/button-c.png); }
+.accordion .ui-state-active .ui-icon { width: 14px; height: 8px; background-image: url(/images/button-c.png); }
 .accordion .ui-state-active .ui-icon { left: 8px; top: 16px; margin-top: 0px; }
 .accordion h3.accordionhead {cursor:pointer;font-size:16px;margin-bottom:0;}
 
@@ -2428,7 +2429,7 @@ span.highlight.two {background:#111;color:#FFFFFF;}
 	padding-right:0px;
 	padding-left:0px;
 }
-.revealbox .ui-icon { width: 15px; height: 15px; background-image: url(images/button-d.png); }
+.revealbox .ui-icon { width: 15px; height: 15px; background-image: url(/images/button-d.png); }
 .revealbox .ui-icon { position: absolute; left: 0px; top: 17px; *top:18px; margin-top: -8px; }
 .revealbox .ui-state-active .ui-icon { background-position:0px 15px; }
 .revealbox h4.reveal {cursor:pointer;font-size:16px;margin-bottom:0;display:block;padding-left:19px;}
@@ -2473,7 +2474,7 @@ span.dropcap.one {
 
 span.dropcap.two {
 	clear:both;
-	background:url(images/dropcap-a.png) no-repeat center top;
+	background:url(/images/dropcap-a.png) no-repeat center top;
 	float:left;
 	font-size:28px;
 	height:34px;
