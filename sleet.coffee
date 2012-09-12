@@ -1,11 +1,13 @@
 
 # Module dependencies.
 express = require 'express'
+ejs_locals = require './node_modules/ejs-locals'
 require 'express-namespace'
 
 app = module.exports = express()
 
 # Configuration
+app.engine 'ejs', ejs_locals
 
 app.configure ->
   app.set 'views', __dirname + '/views'
