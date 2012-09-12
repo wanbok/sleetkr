@@ -1,9 +1,9 @@
 
 # Module dependencies.
 express = require 'express'
-routes = require './routes'
+require 'express-namespace'
 
-app = module.exports = express.createServer()
+app = module.exports = express()
 
 # Configuration
 
@@ -22,12 +22,15 @@ app.configure 'production', ->
   app.use express.errorHandler()
 
 # Routes
+require('./apps/site/routes')(app)
+require('./apps/terminal/routes')(app)
 
-app.get('/', routes.index);
-
+port = null
 if app.settings.env is 'production'
-  app.listen 80
+  port = 80
 else
-  app.listen 3000
+  port = 3000
+
+app.listen port
   
-console.log "Express server listening on port %d in %s mode", app.address().port, app.settings.env
+console.log "Express server listening on port %d in %s mode", port, app.settings.env
