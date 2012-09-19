@@ -1,8 +1,11 @@
 
 # Module dependencies.
 express = require 'express'
-ejs_locals = require './node_modules/ejs-locals'
 require 'express-namespace'
+
+ejs_locals = require 'ejs-locals'
+
+GLOBAL._ = require 'underscore'
 
 app = module.exports = express()
 
@@ -25,7 +28,6 @@ app.configure 'production', ->
 
 # Routes
 require('./apps/site/routes')(app)
-require('./apps/terminal/routes')(app)
 
 port = null
 if app.settings.env is 'production'
